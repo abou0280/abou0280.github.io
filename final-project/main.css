@@ -1,0 +1,141 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+#nav ul {
+  display: inline-block;
+  list-style-type: none;
+  
+}
+
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
+.About {
+  background-color: #ffe6ac;
+      
+}
+
+.Au{
+ float: left;
+ image-resolution: 25%;
+}
+
+.Digital {
+  background-color: #ffe6ac;
+}
+
+.Marketing {
+  background-color: #ffe6ac;
+}
+
+.Video {
+  background-color: #ffe6ac;
+}
+
+.Web {
+  background-color: #ffe6ac;
+}
+
+.Print {
+  background-color: #ffe6ac;
+}
+
+.John {
+  background-color: #ffe6ac;
+}
+
+.Bob {
+  background-color: #ffe6ac;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: xx-large;
+  
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.button2 {
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+
+.button1 {background-color: #000000;} /* Black */
+.button2 {background-color: #000000;} /* Black */
+
+
+.container {
+  /* background-color: black; */
+  /* opacity: 0.5; */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+div{ 
+    background: url(main-banner.jpg) no-repeat center center;
+    
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* add proper colour for hover*/ 
+li a:hover {
+  background-color: #111;
+}
